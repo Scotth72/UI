@@ -148,6 +148,10 @@ h2 {
   font-size: 2rem;
   padding-bottom: 5%;
 }
+img {
+  width: 20vw;
+  padding: 10% 0 10% 0;
+}
 header {
   display: flex;
 }
@@ -179,6 +183,9 @@ header nav a {
     width: 50%;
     height: 20vh;
   }
+}
+footer div {
+  align-items: center;
 }
 main-container {
   margin: 2%;
@@ -212,5 +219,8 @@ h1 {
 }
 .middle .info {
   display: flex;
+  text-align: left;
   width: 25%;
+  padding: 20%;
+  border: 2px solid purple;
 }
