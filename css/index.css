@@ -134,11 +134,9 @@ table {
 }
 html {
   font-size: 62.5%;
-  border: 2px solid grey;
 }
 p {
   font-size: 1.6rem;
-  border: 1px solid grey;
   width: 100%;
 }
 h1 {
@@ -149,8 +147,10 @@ h2 {
   padding-bottom: 5%;
 }
 img {
+  width: 70vw;
+}
+.logo {
   width: 20vw;
-  padding: 10% 0 10% 0;
 }
 header {
   display: flex;
@@ -165,6 +165,7 @@ header nav {
   background-color: #F83E49;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
   width: 80%;
 }
 @media (max-width: 800px) {
@@ -184,8 +185,20 @@ header nav a {
     height: 20vh;
   }
 }
-footer div {
+.cRight {
+  font-size: 1.6rem;
+  margin: 5% auto;
+}
+address {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+#cDp {
+  margin: 5% auto;
+  text-align: center;
 }
 main-container {
   margin: 2%;
@@ -217,10 +230,76 @@ h1 {
   text-align: center;
   padding-bottom: 5%;
 }
+@media (max-width: 500px) {
+  .middle {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+}
 .middle .info {
   display: flex;
   text-align: left;
   width: 25%;
-  padding: 20%;
+  padding: 1%;
   border: 2px solid purple;
+}
+@media (max-width: 500px) {
+  .middle .info {
+    width: 60%;
+    margin: 4%;
+  }
+}
+.main-street {
+  display: flex;
+  flex-direction: column;
+}
+.main-street .signUpButton {
+  text-decoration: none;
+  color: #F83E49;
+  border: 1px solid black;
+  border-radius: 5%;
+  font-size: 1.6rem;
+  margin: 5% auto;
+}
+.topPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topPart h2 {
+  margin: 1% 0;
+}
+.topPart p {
+  width: 80%;
+}
+.tLinfo {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 2% auto;
+  width: 40%;
+  text-align: center;
+}
+.tLinfo img {
+  margin: auto;
+}
+.SecTeam {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% auto;
+}
+@media (max-width: 500px) {
+  .SecTeam {
+    display: block;
+  }
+}
+.SecTeam .child {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+address button {
+  padding: 0.5%;
 }
