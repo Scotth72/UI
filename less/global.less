@@ -12,11 +12,16 @@
     // color: @main-font-color;
   }
   
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, a {
     font-family: 'Roboto', sans-serif;
     // color: @header-font-color; // change to 'heading'
   }
   
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+  }
+
   h2 {
     font-size: 3.2rem;
   }
@@ -24,14 +29,35 @@
   h3 {
     font-size: 2.8rem;
   }
+
+  h4{
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+  }
   
   p {
     font-size: 1.6rem;
     line-height: 1.4;
   }
+
+  a {
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+  #signIn a{
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+  }
   
   .container {
-    max-width: 800px;
+    max-width: 90%;
     width: 100%;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1%;
+    background-color: #F7F7F7;
   }
