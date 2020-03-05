@@ -185,6 +185,14 @@ header nav a {
     height: 20vh;
   }
 }
+a:hover {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #7D70FE;
+  color: #FFFFFF;
+}
 .cRight {
   font-size: 1.6rem;
   margin: 5% auto;
