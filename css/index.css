@@ -234,7 +234,7 @@ footer nav {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  height: 50%;
+  height: 60%;
 }
 .topContent #topContentHeading {
   position: absolute;
@@ -244,58 +244,64 @@ footer nav {
 .topContent div {
   width: 30%;
 }
-.topContent .childCareCard {
-  height: 50%;
+.topContent .sbCard {
+  height: 60%;
+  margin-top: 4%;
+  padding-top: 2%;
+  padding-left: 0.5%;
+  background-color: white;
+  border-radius: 5px;
 }
-.topContent .strollerPassCard {
-  height: 50%;
+.topContent .sbCard {
+  height: 60%;
+  margin-top: 4%;
+  padding-top: 2%;
+  padding-left: 0.5%;
+  background-color: white;
+  border-radius: 5px;
 }
-.topContent .discountsCard {
-  height: 50%;
+.topContent .sbCard {
+  height: 60%;
+  margin-top: 4%;
+  padding-top: 2%;
+  padding-left: 0.5%;
+  background-color: white;
+  border-radius: 5px;
 }
-.bottomContent {
+.sharedContent {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  height: 65%;
+  height: 80%;
 }
-.bottomContent #bottomContentHeading {
+.sharedContent #sharedContentHeading {
   position: absolute;
   top: 25;
   left: 20;
 }
-.bottomContent div {
+.sharedContent div {
   width: 30%;
 }
-.bottomContent .testimonialCard1 {
+.sharedContent p {
+  padding-left: 2%;
+}
+.sharedContent .sharedCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70%;
-  margin-top: 5%;
+  height: 60%;
+  padding-top: 3%;
+  background-color: white;
+  border-radius: 5px;
 }
-.bottomContent .testimonialCard2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 70%;
-  margin-top: 5%;
-}
-.bottomContent .testimonialCard3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 70%;
-  margin-top: 5%;
-}
-.bottomContent .testimonialImg {
+.sharedContent .sharedImg {
   border-radius: 50%;
   width: 40%;
-  height: 40%;
+  height: 50%;
   margin-bottom: 10%;
 }
-.bottomContent .button {
+.sharedContent .button {
   position: absolute;
   bottom: 30;
   width: 10%;
